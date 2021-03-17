@@ -246,6 +246,30 @@ b {
   }
 
 }
+.about-arrow {
+  border: none;
+  background-color: transparent;
+}
+.about-item {
+  width: 315px;
+  height: 170px;
+  display: flex;
+  align-items: flex-end;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(245, 245, 245);
+  text-transform: uppercase;
+  line-height: 1.35;
+  position: relative;
+  margin: 20px;
+}
+.about-item-title {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  transform: translateX(-30%) translateY(20px);
+  width: 150px;
+}
 .top-info {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
@@ -301,6 +325,9 @@ b {
 
 .mb-50 {
   margin-bottom: 50px;
+}
+.mb-80 {
+  margin-bottom: 80px;
 }
 .mb-160 {
   margin-bottom: 160px;

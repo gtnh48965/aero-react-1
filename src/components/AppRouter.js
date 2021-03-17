@@ -8,6 +8,7 @@ const AppRouter = () => {
             {publicRoutes.map(({path, Component}) =>
                 <Route key={path} path={path} component={Component} exact/>
             )}
+            <Redirect to={'/main'}/>
         </Switch>
     );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="container about mb-160">
+        <div className="container about mb-80">
             <div className="row">
                 <div className="col-6">
                     <div className="container-title">
