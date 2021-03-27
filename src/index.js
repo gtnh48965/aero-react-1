@@ -5,13 +5,25 @@ import React, {createContext} from 'react';
 import ReactDOM from 'react-dom';
 import App from "./App";
 import AboutStore from "./store/AboutStore";
+import ServisStore from "./store/ServisStore";
 
-
-export const Context = createContext(null)
+export const Context = createContext(null);
 ReactDOM.render(
     <Context.Provider value = {{
-        about: new AboutStore()}}>
+        about: new AboutStore(),
+        servis: new ServisStore(),
+
+    }}>
         <App />
     </Context.Provider>,
     document.getElementById('root')
 );
+
+// export const Context = createContext(null);
+// ReactDOM.render(
+//     <Context.Provider value = {{
+//         about: new ServisStore()}}>
+//         <App />
+//     </Context.Provider>,
+//     document.getElementById('root')
+// );
