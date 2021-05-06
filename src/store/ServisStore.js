@@ -3,9 +3,13 @@ import {makeAutoObservable} from "mobx";
 export  default class ServisStore {
     constructor() {
         this._servis = [
-            {id:1, name: 'Полная спутниковая диагностика территории', img: '/images/aboutstore/1.png'},
-            {id:2, name: 'Увеличение вашего дохода - это наша работа!', img: '/images/aboutstore/2.png'},
-            {id:3, name: 'Новейшее программное обеспечение', img: '/images/aboutstore/3.png'},
+
+            {id:1, name: 'Тест драйв', img: '/images/services/Zonss.png', body: 'Компания AEROSPACE-AGRO предлагает каждому новому клиенту\n' +
+                    '                        воспользоваться услугой Test-Drive! За сумму в 200 000\n' +
+                    '                        рублей мы сделаем подробную диагностику небольшого участка\n' +
+                    '                        Вашей земли.',
+                link_bottom:'#'},
+
 
         ]
 
